@@ -1,0 +1,60 @@
+.CartScreen{
+    font-family: "Roboto Mono",monospace;
+}
+
+.CartCheck{
+    margin: 10px;
+}
+
+.Qty {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.QtyButton{
+    display: flex;
+
+}
+
+.QtyButton button{
+    background-color: #032d64;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.QtyButton p{
+    margin: 10px;
+}
+
+.InfoCart {
+    min-width: 169px;
+}
+
+.LastInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CheckoutButton{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.CheckoutButton button{
+    background-color: #032d64;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px;
+    font: 1.4rem monospace;
+    margin: auto;
+}
+
+.SelectAllBox{
+    font-family: "Roboto Mono",monospace;
+    margin: 10px;
+}

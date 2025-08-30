@@ -1,0 +1,64 @@
+.LoginBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  max-width: 400px;
+  margin: 150px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.LoginBody label {
+  font-weight: 600;
+}
+
+.LoginBody input {
+  width: 60%;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 5px 5px 5px 10px;
+  border: none;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.PasswordView{
+  background: none;
+  background-color: none;
+  color: black;
+  z-index: 6;
+  padding: none;
+  border: none;
+}
+
+
+.LoginBodybutton {
+  background-color: #032d64;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+  font: 1rem monospace;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+
+.LoginBodybutton:hover {
+  background-color: #0074d4;
+}
+
+.LoginBodybutton:active {
+  transform: scale(0.95);
+}
+
+.LoginBody a {
+  text-decoration: none;
+}
+

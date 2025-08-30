@@ -1,0 +1,78 @@
+.WishScreen{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.Wishlist h1{
+    font-family: "Intel One Mono",monospace;
+}
+
+.WishProduct {
+    box-shadow: 0px 3px 7px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.WishProduct:hover {
+    color: white;
+    background-color: #032d64;
+    transform: scale(1.05);
+}
+
+.WishProduct:hover .WishInfo button{
+    color: white;
+}
+
+.WishProduct img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.WishInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WishInfo h4{
+    margin: 0;
+}
+
+.WishInfo p{
+    margin: 0;
+}
+
+.WishInfo button{
+    border: none;
+    background: none;
+}
+
+.ContShop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono",monospace;
+}
+
+.ContShop a{
+    text-decoration: none;
+    background-color: #032d64;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.ContShop a:hover{
+    background-color: #0074d4;
+}
+
+.ContShop a:active{
+    transform: scale(0.95);
+}

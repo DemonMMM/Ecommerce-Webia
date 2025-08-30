@@ -1,0 +1,57 @@
+.ProductScreen{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono",monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading{
+    font-family: "Roboto Mono", monospace;
+}
+
+.Product{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    width: 643px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.Product img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.InfoScreen{
+    min-width: 309px;
+    max-width: 310px;
+    margin: 0;
+}
+ 
+.ActionButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.ActionButtons button{
+    border:none;
+    background-color: #032d64;
+    font: 1em monospace;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.ActionButtons button:hover{
+    background-color: #0074d4;
+}
+
+.ActionButtons button:active{
+    transform: scale(0.95);
+}

@@ -1,0 +1,13 @@
+.OrderProduct{
+    display: flex;
+    font-family: "Roboto Mono",monospace;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 10px;
+}
+.OrderProduct img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}

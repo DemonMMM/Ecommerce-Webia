@@ -1,0 +1,74 @@
+.Trending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.Trending h1{
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    color: #032d61;
+}
+
+.TrendingP {
+    margin: 0;
+    color: #0074d4;
+    font-family: "Roboto Mono",monospace;
+}
+
+.Section{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.SectionDiv {
+    margin: 20px;;
+}
+
+
+.Section img{
+    height: 190px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.InfoSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InfoSection h4{
+    margin: 0;
+    font-family: "Roboto Mono",monospace;
+}
+
+.InfoSection p{
+    margin: 0;
+}
+
+.Buttons button{
+    background: none;
+    border: none;
+}
+
+.WishButton {
+    color: red;
+}
+
+.LastLink{
+    text-decoration: none;
+    background-color: #032d61;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Roboto Mono",monospace;
+}
+
+.LastLink:hover{
+    background-color: #0074d4;
+}

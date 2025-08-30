@@ -1,0 +1,139 @@
+.UpperNav {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  padding: 19px;
+  align-items: center;
+  position: fixed;
+  width: 98%;
+  z-index: 1000;
+}
+
+.LeftComponent{
+  display: flex;
+}
+
+.LeftComponent a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #032d61;
+  font-size: 1.9em;
+  font-family: "Roboto Mono",monospace;
+  font-weight: 600;
+}
+
+.LeftComponent img {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.LeftComponent button{
+  background: none;
+  border: none;
+  font: 1.6em sans-serif;
+  color: #032d61;
+}
+
+.MiddleComponent{
+  display: flex;
+  gap: 19px;
+}
+
+.MiddleComponent a{
+  text-decoration: none;
+  color: #032d61;
+  font: 1.2rem sans-serif;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.MiddleComponent a:hover{
+  color: #0074d4;
+}
+
+.MiddleComponent button{
+  background: none;
+  border: none;
+  font: 1.2rem sans-serif;
+  font-weight: 600;
+  color: #032d61;
+}
+
+.MiddleComponent button:hover{
+  color: #0074d4;
+}
+
+.DropDown{
+  display: inline;
+  position: relative;
+  margin: 6px 0px 0px 0px;
+}
+
+.DropDown div{
+  position: absolute;
+  z-index: 1001;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.MiddleComponent div a{
+  color: #032d61;
+}
+
+.RightComponent a {
+  align-items: center;
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+  font: 1.1em sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.RightComponent p{
+  display: inline;
+  color: white;
+  font: 1.1em sans-serif;
+  margin-right: 18px;
+}
+
+.RightComponent button{
+    background: none;
+  border: none;
+  font: 1.2em times-new-roman;
+  color: #032d61;
+  margin-right: 10px;
+}
+
+.LoginButton {
+  background-color: #2e854b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.LoginButton:hover {
+    background-color: #3cb371;
+}
+
+.ProfileButtons{
+  position: fixed;
+  z-index: 1001;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileButtons button{
+  margin: 5px;
+  background: none;
+  border: none;
+  color: #032d61;
+}
