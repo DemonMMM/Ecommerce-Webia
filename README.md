@@ -76,8 +76,8 @@ public/
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/webia-ecommerce.git
-   cd webia-ecommerce
+   git clone https://github.com/DemonMMM/Ecommerce-Webia.git
+   cd Ecommerce-Webia
    ```
 
 2. **Install dependencies**
